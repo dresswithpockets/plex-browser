@@ -1,0 +1,33 @@
+{
+  "name": "plex-browser",
+  "version": "1.0.0",
+  "description": "Access app.plex.tv, but with media keys!",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phxvyper/plex-browser.git"
+  },
+  "keywords": [
+    "plex",
+    "browser",
+    "media",
+    "keys"
+  ],
+  "author": "Ashley Horton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phxvyper/plex-browser/issues"
+  },
+  "homepage": "https://github.com/phxvyper/plex-browser#readme",
+  "dependencies": {
+    "mediakeys": "^0.2.0",
+    "newline-json": "^0.1.1",
+    "nkbhook": "^0.1.2"
+  },
+  "devDependencies": {
+    "electron": "^3.0.13"
+  }
+}
